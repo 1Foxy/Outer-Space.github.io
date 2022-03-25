@@ -10,29 +10,34 @@
 
 function loaded(){
 	
-	setInterval(loop, 250);
+	setInterval(loop, 50);
 
 }
 
 var x = 0;
 
 var titleText = [ "|",
-					"A|",
-					"A |",
-					"A N|",
-					"A N |",
-					"A N T|",
-					"A N T |",
-					"A N T I|",
-					"A N T I |",
-					"A N T I G|",
-					"A N T I G |",
-					"A N T I G A|",
-					"A N T I G A |",
-					"A N T I G A N|",
-					"A N T I G A N |",
-					"A N T I G A N G|",
-					"A N T I G A N G |"];
+					"O|",
+					"O |",
+					"O U|",
+					"O U |",
+					"O U T|",
+					"O U T |",
+					"O U T E|",
+					"O U T E |",
+					"O U T E R|",
+					"O U T E R |",
+					"-|",
+					"S|",
+					"S |",
+					"S P|",
+					"S P |",
+					"S P A|",
+					"S P A |",
+		 			"S P A C|",
+					"S P A C |",
+					"S P A C E|",
+					"S P A C E |",
 function loop(){
 
 	document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
